@@ -1,4 +1,3 @@
-
 source $VIMRUNTIME/vimrc_example.vim 
 
 map <F6> :tabnext<CR>
@@ -29,7 +28,11 @@ set termencoding=utf-8
 set ffs=unix,dos,mac
 set ff=unix
 
+set nocp
+set hls
 colorscheme desert
+color mango
+
 set columns=140
 " set guioptions-=T
 
