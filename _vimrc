@@ -7,6 +7,8 @@ map <F9> :make %<<CR>
 map gf :tabnew <cfile><CR>
 
 syntax on
+filetype on
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
