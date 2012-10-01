@@ -12,7 +12,14 @@ filetype on
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set expandtab
+set noexpandtab
+
+if has("autocmd")
+	autocmd BufNewFile,BufRead *.json setfiletype json
+	autocmd BufNewFile,BufRead *.rss setfiletype xml
+
+	autocmd FileType javascript,json,php setlocal ts=2 sts=2 sw=2 expandtab
+endif
 
 set autoindent
 set cindent
