@@ -18,7 +18,7 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json
 	autocmd BufNewFile,BufRead *.rss setfiletype xml
 
-	autocmd FileType javascript,json setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType javascript,json,sql setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType php,sh setlocal ts=4 sts=4 sw=4 expandtab
 endif
 
