@@ -15,11 +15,12 @@ set shiftwidth=4
 set noexpandtab
 
 if has("autocmd")
-	autocmd BufNewFile,BufRead *.json setfiletype json
-	autocmd BufNewFile,BufRead *.rss setfiletype xml
-	autocmd BufNewFile,BufRead *.ejs setfiletype html
+	autocmd BufNewFile,BufRead *.json set filetype=json
+	autocmd BufNewFile,BufRead *.rss set filetype=xml
+	autocmd BufNewFile,BufRead *.ejs set filetype=html
+	autocmd BufNewFile,BufRead *.cypher set syntax=cypher
 
-	autocmd FileType javascript,json,sql setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType javascript,json,sql,cypher setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType php,sh,dosini,html setlocal ts=4 sts=4 sw=4 expandtab
 endif
 
