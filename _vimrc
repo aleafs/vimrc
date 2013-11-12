@@ -43,8 +43,9 @@ set ff=unix
 set nocp
 set hls
 
-colorscheme desert
-color mango
+colorscheme delek
+
+"color mango
 
 set columns=140
 " set guioptions-=T
