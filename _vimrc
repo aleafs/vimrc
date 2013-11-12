@@ -42,6 +42,7 @@ set ff=unix
 
 set nocp
 set hls
+
 colorscheme desert
 color mango
 
