@@ -45,7 +45,7 @@ set hls
 
 color mango
 
-set columns=140
+set columns=180
 " set guioptions-=T
 
 set number
