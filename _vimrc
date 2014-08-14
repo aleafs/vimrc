@@ -45,7 +45,7 @@ set hls
 
 color mango
 
-set columns=140
+set columns=180
 " set guioptions-=T
 
 set number
@@ -54,4 +54,3 @@ set number
 " statusline
 set laststatus=2
 set statusline=%f\ %m%y[%{&ff}:%{&fenc}]%=%10.(\ %l,%c%V%)\ %5.(%P%)
-
