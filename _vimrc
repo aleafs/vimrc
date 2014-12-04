@@ -17,6 +17,7 @@ set noexpandtab
 if has("autocmd")
 	autocmd BufNewFile,BufRead *.json set filetype=json
 	autocmd BufNewFile,BufRead *.rss set filetype=xml
+	autocmd BufNewFile,BufRead *.svg set filetype=xml
 	autocmd BufNewFile,BufRead *.ejs set filetype=html
 	autocmd BufNewFile,BufRead *.cypher set syntax=cypher
 
