@@ -5,10 +5,6 @@
 
 ```bash
 $ git clone git@github.com:aleafs/vimrc.git
+$ cd vimrc && ./install
 ```
-## Usage
 
-```bash
-$ ln -s _vimrc ~/.vimrc
-$ ls -s _vim ~/.vim
-```
