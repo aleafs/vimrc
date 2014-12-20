@@ -20,8 +20,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.ejs set filetype=html
 	autocmd BufNewFile,BufRead *.cypher set syntax=cypher
 
-	autocmd FileType javascript,json,sql,cypher setlocal ts=2 sts=2 sw=2 expandtab
-	autocmd FileType php,sh,dosini,html setlocal ts=4 sts=4 sw=4 expandtab
+	autocmd FileType javascript,json,sql,cypher,html setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType php,sh,dosini setlocal ts=4 sts=4 sw=4 expandtab
 endif
 
 set autoindent
